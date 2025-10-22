@@ -1,0 +1,182 @@
+<scene>
+    <ambient-light colour="#D0D0FF" intensity="0.03"/>
+    <background-colour colour="#82c7e6" />
+    <camera x="0.1" y="0.2" z="-2.4" rx="2" ry="5"/>
+    <plane x="0" z="0" y="-0.8" nx="0" ny="1" nz="0" texture-map="table-wood.jpg" reflectivity="0.02" kS="0.2" kD="0.3" bx="-1" by="-0.8" bz="-5.25" bounding-radius="9.5"/>
+    <plane x="0.0" y="-0.5" z="0" nx="0" ny="1" nz="0" colour="#adadad" texture-map="snow.jpg" reflectivity="0.001" kS="0.1" bx="0" by="0" bz="1.45" bounding-radius="1.7"/>,→
+    <plane x="-9.48528" y="-20.8" z="-19.94694" nx="-2.58819" ny="0" nz="9.65926" kS="0.1" colour="#ae2eae" reflectivity="0" texture-map="behindwall.png" texture-scale="123.5" texture-rotation="195"/>
+    <plane x="109.64557" y="-20.8" z="11.97408" nx="-9.65926" ny="0" nz="-2.58819" kS="0.1" colour="#ae2eae" reflectivity="0" texture-map="rightwall.png" texture-scale="183.5" texture-rotation="-75" bx="85.92049" by="19.2" bz="100.51728" bounding-radius="130"/>
+    <plane x="62.19541" y="-20.8" z="189.06048" nx="2.58819" ny="0" nz="-9.65926" kS="0.1" colour="#ae2eae" reflectivity="0" texture-map="backwall.png" texture-scale="123.5" texture-rotation="15" bx="-17.56487" by="35.2" bz="167.76916" bounding-radius="10.5" bounding-operator=">"/>
+    <plane x="-56.93544" y="-20.8" z="157.13946" nx="9.65926" ny="0" nz="2.58819" kS="0.1" colour="#ae2eae" reflectivity="0" texture-map="leftwall.png" texture-scale="183.5" texture-rotation="105" bx="-33.21036" by="19.2" bz="68.59626" bounding-radius="130"/>
+    <plane x="-9.48528" y="-20.8" z="-19.94694" nx="0" ny="1" nz="0" kS="0.8" colour="#ae2eae" reflectivity="0.25" texture-map="floor_wood.jpg" texture-rotation="15" texture-scale="50" bx="26.35507" by="-12.8" bz="84.55677" bounding-radius="131"/>
+    <plane x="-9.48528" y="59.2" z="-19.94694" nx="0" ny="-1" nz="0" kS="0.8" colour="#ae2eae" reflectivity="0" texture-map="plaster.jpg" texture-rotation="15" texture-scale="50" bx="26.35507" by="-12.8" bz="84.55677" bounding-radius="131" />
+    <plane x="100" y="-500" z="1782.83809" nx="0" ny="0" nz="-1" texture-map="sky.jpg" texture-scale="2000" kS="0" reflectivity="0" kD="500"/>
+    <sphere x="-0.45" y="-0.33" z="1.45" radius="0.25" texture-map="snow.jpg" reflectivity="0.01"/>
+    <sphere x="-0.45" y="0" z="1.45" radius="0.2" texture-map="snow.jpg" reflectivity="0.01"/>
+    <sphere x="-0.45" y="0.3" z="1.45" radius="0.16" texture-map="snow.jpg" reflectivity="0.01"/>
+    <sphere x="-0.45" y="-0.23" z="1.22587" colour="#090909" reflectivity="0.02" radius="0.02" alphaS="30"/>
+    <sphere x="-0.45" y="-0.33" z="1.205" colour="#090909" reflectivity="0.02" radius="0.02" alphaS="30"/>
+    <sphere x="-0.45" y="-0.43" z="1.22587" colour="#090909" reflectivity="0.02" radius="0.02" alphaS="30"/>
+    <sphere x="-0.45" y="0.08" z="1.2717" colour="#090909" reflectivity="0.02" radius="0.02" alphaS="30"/>
+    <sphere x="-0.45" y="0" z="1.255" colour="#090909" reflectivity="0.02" radius="0.02" alphaS="30"/>
+    <sphere x="-0.45" y="-0.08" z="1.2717" colour="#090909" reflectivity="0.02" radius="0.02" alphaS="30"/>
+    <sphere x="-0.49776" y="0.34141" z="1.30802" colour="#090909" reflectivity="0.02" radius="0.02" alphaS="30"/>
+    <sphere x="-0.40224" y="0.34141" z="1.30802" colour="#090909" reflectivity="0.02" radius="0.02" alphaS="30"/>
+    <sphere x="-0.52486" y="0.25988" z="1.32034" colour="#090909" reflectivity="0.02" radius="0.014" alphaS="30"/>
+    <sphere x="-0.49868" y="0.23861" z="1.31626" colour="#090909" reflectivity="0.02" radius="0.014" alphaS="30"/>
+    <sphere x="-0.47369" y="0.22644" z="1.31564" colour="#090909" reflectivity="0.02" radius="0.014" alphaS="30"/>
+    <sphere x="-0.45" y="0.2225" z="1.31577" colour="#090909" reflectivity="0.02" radius="0.014" alphaS="30"/>
+    <sphere x="-0.42631" y="0.22644" z="1.31564" colour="#090909" reflectivity="0.02" radius="0.014" alphaS="30"/>
+    <sphere x="-0.40132" y="0.23861" z="1.31626" colour="#090909" reflectivity="0.02" radius="0.014" alphaS="30"/>
+    <sphere x="-0.37514" y="0.25988" z="1.32034" colour="#090909" reflectivity="0.02" radius="0.014" alphaS="30"/>
+    <cone x="-0.45" y="0.3" z="1.18" ax="0" ay="0" az="1" length="0.12" angle="10" texture-map="carrot.jpg" reflectivity="0" alphaS="50"/>
+    <sphere x="0" y="-0.2" z="1.45" radius="1.5" colour="#DDDDFF" kd="0.8" kS="0.2" alphaS="50" reflectivity="0.03" refractive_index="1.5" tr="0.95" tg="0.95" tb="0.95"/>
+    <sphere x="0" y="-0.2" z="1.45" radius="1.7" colour="#FFFFFF" kd="0.8" kS="0.2" alphaS="50" reflectivity="0" refractive_index="1.5" tr="0.95" tg="0.95" tb="0.95"/>
+    <cylinder x="0" y="-0.5" z="1.45" radius="1.66565" length="0.31" colour="#242424" ax="0" ay="-1" az="0" reflectivity="0.09"/>
+    <sphere x="-0.02361" y="-0.01767" z="2.24947" radius="0.02786" colour="#fffafa" reflectivity="0.2" tr="0.82" tg="0.82" tb="0.82" refractive_index="1.31"/>
+    <sphere x="-0.30036" y="-0.01214" z="2.33541" radius="0.02377" colour="#fffafa" reflectivity="0.2" tr="0.82" tg="0.82" tb="0.82" refractive_index="1.31"/>
+    <sphere x="0.61311" y="0.38339" z="1.52529" radius="0.03293" colour="#fffafa" reflectivity="0.2" tr="0.82" tg="0.82" tb="0.82" refractive_index="1.31"/>
+    <sphere x="0.87009" y="0.26634" z="0.98386" radius="0.03687" colour="#fffafa" reflectivity="0.2" tr="0.82" tg="0.82" tb="0.82" refractive_index="1.31"/>
+    <sphere x="0.32664" y="0.03214" z="0.09955" radius="0.02957" colour="#fffafa" reflectivity="0.2" tr="0.82" tg="0.82" tb="0.82" refractive_index="1.31"/>
+    <sphere x="0.39163" y="0.56467" z="1.62858" radius="0.03642" colour="#fffafa" reflectivity="0.2" tr="0.82" tg="0.82" tb="0.82" refractive_index="1.31"/>
+    <sphere x="-1.1994" y="-0.12837" z="1.0409" radius="0.02539" colour="#fffafa" reflectivity="0.2" tr="0.82" tg="0.82" tb="0.82" refractive_index="1.31"/>
+    <sphere x="1.19958" y="0.04629" z="1.15824" radius="0.03629" colour="#fffafa" reflectivity="0.2" tr="0.82" tg="0.82" tb="0.82" refractive_index="1.31"/>
+    <sphere x="0.55084" y="1.09067" z="1.2838" radius="0.02287" colour="#fffafa" reflectivity="0.2" tr="0.82" tg="0.82" tb="0.82" refractive_index="1.31"/>
+    <sphere x="-0.76441" y="0.44585" z="0.97003" radius="0.02527" colour="#fffafa" reflectivity="0.2" tr="0.82" tg="0.82" tb="0.82" refractive_index="1.31"/>
+    <sphere x="-0.34619" y="0.48718" z="2.19917" radius="0.03126" colour="#fffafa" reflectivity="0.2" tr="0.82" tg="0.82" tb="0.82" refractive_index="1.31"/>
+    <sphere x="-0.56042" y="0.64723" z="0.48625" radius="0.03726" colour="#fffafa" reflectivity="0.2" tr="0.82" tg="0.82" tb="0.82" refractive_index="1.31"/>
+    <sphere x="-0.35263" y="0.04046" z="2.53095" radius="0.03429" colour="#fffafa" reflectivity="0.2" tr="0.82" tg="0.82" tb="0.82" refractive_index="1.31"/>
+    <sphere x="0.60617" y="-0.19816" z="2.65822" radius="0.02071" colour="#fffafa" reflectivity="0.2" tr="0.82" tg="0.82" tb="0.82" refractive_index="1.31"/>
+    <sphere x="-0.76844" y="0.32202" z="0.84629" radius="0.02756" colour="#fffafa" reflectivity="0.2" tr="0.82" tg="0.82" tb="0.82" refractive_index="1.31"/>
+    <sphere x="0.10204" y="0.3714" z="2.74806" radius="0.03493" colour="#fffafa" reflectivity="0.2" tr="0.82" tg="0.82" tb="0.82" refractive_index="1.31"/>
+    <sphere x="-0.4814" y="0.88537" z="0.68338" radius="0.03267" colour="#fffafa" reflectivity="0.2" tr="0.82" tg="0.82" tb="0.82" refractive_index="1.31"/>
+    <sphere x="-0.19967" y="0.8622" z="1.2293" radius="0.0351" colour="#fffafa" reflectivity="0.2" tr="0.82" tg="0.82" tb="0.82" refractive_index="1.31"/>
+    <sphere x="-0.20707" y="-0.09464" z="2.2826" radius="0.03778" colour="#fffafa" reflectivity="0.2" tr="0.82" tg="0.82" tb="0.82" refractive_index="1.31"/>
+    <sphere x="-1.26431" y="0.34377" z="1.91701" radius="0.02639" colour="#fffafa" reflectivity="0.2" tr="0.82" tg="0.82" tb="0.82" refractive_index="1.31"/>
+    <sphere x="-0.68295" y="1.01817" z="1.37373" radius="0.03606" colour="#fffafa" reflectivity="0.2" tr="0.82" tg="0.82" tb="0.82" refractive_index="1.31"/>
+    <sphere x="-1.15597" y="0.13419" z="1.19" radius="0.03146" colour="#fffafa" reflectivity="0.2" tr="0.82" tg="0.82" tb="0.82" refractive_index="1.31"/>
+    <sphere x="1.27552" y="-0.09393" z="1.13794" radius="0.03802" colour="#fffafa" reflectivity="0.2" tr="0.82" tg="0.82" tb="0.82" refractive_index="1.31"/>
+    <sphere x="0.57327" y="-0.49446" z="2.75107" radius="0.03219" colour="#fffafa" reflectivity="0.2" tr="0.82" tg="0.82" tb="0.82" refractive_index="1.31"/>
+    <sphere x="0.73382" y="0.0797" z="2.09991" radius="0.02083" colour="#fffafa" reflectivity="0.2" tr="0.82" tg="0.82" tb="0.82" refractive_index="1.31"/>
+    <sphere x="1.14336" y="0.44498" z="1.76034" radius="0.02709" colour="#fffafa" reflectivity="0.2" tr="0.82" tg="0.82" tb="0.82" refractive_index="1.31"/>
+    <sphere x="-1.10327" y="0.41544" z="1.55802" radius="0.03792" colour="#fffafa" reflectivity="0.2" tr="0.82" tg="0.82" tb="0.82" refractive_index="1.31"/>
+    <sphere x="0.91266" y="0.45539" z="2.34523" radius="0.02852" colour="#fffafa" reflectivity="0.2" tr="0.82" tg="0.82" tb="0.82" refractive_index="1.31"/>
+    <sphere x="0.07082" y="0.82103" z="0.61472" radius="0.02071" colour="#fffafa" reflectivity="0.2" tr="0.82" tg="0.82" tb="0.82" refractive_index="1.31"/>
+    <sphere x="0.53115" y="-0.34755" z="2.65662" radius="0.03692" colour="#fffafa" reflectivity="0.2" tr="0.82" tg="0.82" tb="0.82" refractive_index="1.31"/>
+    <sphere x="-0.13052" y="1.079" z="0.70275" radius="0.02466" colour="#fffafa" reflectivity="0.2" tr="0.82" tg="0.82" tb="0.82" refractive_index="1.31"/>
+    <sphere x="1.17624" y="0.47851" z="1.84993" radius="0.0203" colour="#fffafa" reflectivity="0.2" tr="0.82" tg="0.82" tb="0.82" refractive_index="1.31"/>
+    <sphere x="-0.24594" y="0.68339" z="1.18198" radius="0.02737" colour="#fffafa" reflectivity="0.2" tr="0.82" tg="0.82" tb="0.82" refractive_index="1.31"/>
+    <sphere x="0.8761" y="0.54455" z="1.72778" radius="0.03784" colour="#fffafa" reflectivity="0.2" tr="0.82" tg="0.82" tb="0.82" refractive_index="1.31"/>
+    <sphere x="0.25189" y="-0.18355" z="2.68127" radius="0.03476" colour="#fffafa" reflectivity="0.2" tr="0.82" tg="0.82" tb="0.82" refractive_index="1.31"/>
+    <sphere x="1.04463" y="0.35164" z="2.31838" radius="0.03891" colour="#fffafa" reflectivity="0.2" tr="0.82" tg="0.82" tb="0.82" refractive_index="1.31"/>
+    <sphere x="-0.84502" y="0.3288" z="2.14848" radius="0.03633" colour="#fffafa" reflectivity="0.2" tr="0.82" tg="0.82" tb="0.82" refractive_index="1.31"/>
+    <sphere x="0.25861" y="0.99449" z="2.12287" radius="0.03154" colour="#fffafa" reflectivity="0.2" tr="0.82" tg="0.82" tb="0.82" refractive_index="1.31"/>
+    <sphere x="1.06749" y="-0.07706" z="1.49914" radius="0.02522" colour="#fffafa" reflectivity="0.2" tr="0.82" tg="0.82" tb="0.82" refractive_index="1.31"/>
+    <sphere x="-0.9452" y="0.25808" z="0.80793" radius="0.02127" colour="#fffafa" reflectivity="0.2" tr="0.82" tg="0.82" tb="0.82" refractive_index="1.31"/>
+    <sphere x="-0.03365" y="-0.43359" z="1.48405" radius="0.03236" colour="#fffafa" reflectivity="0.2" tr="0.82" tg="0.82" tb="0.82" refractive_index="1.31"/>
+    <sphere x="0.74267" y="0.28791" z="1.41383" radius="0.03458" colour="#fffafa" reflectivity="0.2" tr="0.82" tg="0.82" tb="0.82" refractive_index="1.31"/>
+    <sphere x="0.63063" y="0.7875" z="2.15346" radius="0.02204" colour="#fffafa" reflectivity="0.2" tr="0.82" tg="0.82" tb="0.82" refractive_index="1.31"/>
+    <sphere x="0.54305" y="0.23721" z="0.4489" radius="0.02815" colour="#fffafa" reflectivity="0.2" tr="0.82" tg="0.82" tb="0.82" refractive_index="1.31"/>
+    <sphere x="0.07644" y="1.27836" z="1.64263" radius="0.02022" colour="#fffafa" reflectivity="0.2" tr="0.82" tg="0.82" tb="0.82" refractive_index="1.31"/>
+    <sphere x="-1.17577" y="-0.18973" z="0.67476" radius="0.02088" colour="#fffafa" reflectivity="0.2" tr="0.82" tg="0.82" tb="0.82" refractive_index="1.31"/>
+    <sphere x="0.05302" y="-0.21127" z="0.16192" radius="0.03595" colour="#fffafa" reflectivity="0.2" tr="0.82" tg="0.82" tb="0.82" refractive_index="1.31"/>
+    <sphere x="0.91406" y="0.21065" z="2.53197" radius="0.0222" colour="#fffafa" reflectivity="0.2" tr="0.82" tg="0.82" tb="0.82" refractive_index="1.31"/>
+    <sphere x="0.10411" y="-0.38481" z="2.11983" radius="0.03359" colour="#fffafa" reflectivity="0.2" tr="0.82" tg="0.82" tb="0.82" refractive_index="1.31"/>
+    <sphere x="0.2577" y="-0.12885" z="0.08376" radius="0.02777" colour="#fffafa" reflectivity="0.2" tr="0.82" tg="0.82" tb="0.82" refractive_index="1.31"/>
+    <sphere x="0.25263" y="0.08121" z="0.57151" radius="0.02618" colour="#fffafa" reflectivity="0.2" tr="0.82" tg="0.82" tb="0.82" refractive_index="1.31"/>
+    <sphere x="1.10769" y="-0.44199" z="1.73993" radius="0.02183" colour="#fffafa" reflectivity="0.2" tr="0.82" tg="0.82" tb="0.82" refractive_index="1.31"/>
+    <sphere x="0.46947" y="-0.23193" z="0.76296" radius="0.03192" colour="#fffafa" reflectivity="0.2" tr="0.82" tg="0.82" tb="0.82" refractive_index="1.31"/>
+    <sphere x="0.28937" y="0.31935" z="1.60491" radius="0.02538" colour="#fffafa" reflectivity="0.2" tr="0.82" tg="0.82" tb="0.82" refractive_index="1.31"/>
+    <sphere x="0.55711" y="0.79246" z="0.8969" radius="0.02663" colour="#fffafa" reflectivity="0.2" tr="0.82" tg="0.82" tb="0.82" refractive_index="1.31"/>
+    <sphere x="0.74062" y="-0.37457" z="1.05823" radius="0.02844" colour="#fffafa" reflectivity="0.2" tr="0.82" tg="0.82" tb="0.82" refractive_index="1.31"/>
+    <sphere x="-0.89433" y="-0.07557" z="2.19242" radius="0.03322" colour="#fffafa" reflectivity="0.2" tr="0.82" tg="0.82" tb="0.82" refractive_index="1.31"/>
+    <sphere x="1.17319" y="-0.45336" z="1.1054" radius="0.0382" colour="#fffafa" reflectivity="0.2" tr="0.82" tg="0.82" tb="0.82" refractive_index="1.31"/>
+    <sphere x="-0.92658" y="-0.42943" z="0.54475" radius="0.02451" colour="#fffafa" reflectivity="0.2" tr="0.82" tg="0.82" tb="0.82" refractive_index="1.31"/>
+    <sphere x="0.16737" y="0.12099" z="2.14674" radius="0.02061" colour="#fffafa" reflectivity="0.2" tr="0.82" tg="0.82" tb="0.82" refractive_index="1.31"/>
+    <sphere x="0.25011" y="-0.43201" z="0.87009" radius="0.02576" colour="#fffafa" reflectivity="0.2" tr="0.82" tg="0.82" tb="0.82" refractive_index="1.31"/>
+    <sphere x="0.40887" y="0.82403" z="1.85283" radius="0.03991" colour="#fffafa" reflectivity="0.2" tr="0.82" tg="0.82" tb="0.82" refractive_index="1.31"/>
+    <sphere x="0.54022" y="0.60487" z="2.47587" radius="0.02326" colour="#fffafa" reflectivity="0.2" tr="0.82" tg="0.82" tb="0.82" refractive_index="1.31"/>
+    <sphere x="-0.09145" y="-0.40997" z="0.37884" radius="0.02292" colour="#fffafa" reflectivity="0.2" tr="0.82" tg="0.82" tb="0.82" refractive_index="1.31"/>
+    <sphere x="0.03838" y="-0.12511" z="1.34829" radius="0.02089" colour="#fffafa" reflectivity="0.2" tr="0.82" tg="0.82" tb="0.82" refractive_index="1.31"/>
+    <sphere x="0.34842" y="-0.18911" z="0.7107" radius="0.02616" colour="#fffafa" reflectivity="0.2" tr="0.82" tg="0.82" tb="0.82" refractive_index="1.31"/>
+    <sphere x="0.33377" y="0.78203" z="0.47181" radius="0.02256" colour="#fffafa" reflectivity="0.2" tr="0.82" tg="0.82" tb="0.82" refractive_index="1.31"/>
+    <sphere x="0.54244" y="-0.16116" z="0.22706" radius="0.03807" colour="#fffafa" reflectivity="0.2" tr="0.82" tg="0.82" tb="0.82" refractive_index="1.31"/>
+    <sphere x="-1.46994" y="-0.31871" z="1.33158" radius="0.02768" colour="#fffafa" reflectivity="0.2" tr="0.82" tg="0.82" tb="0.82" refractive_index="1.31"/>
+    <sphere x="-0.63297" y="0.02648" z="0.73883" radius="0.02671" colour="#fffafa" reflectivity="0.2" tr="0.82" tg="0.82" tb="0.82" refractive_index="1.31"/>
+    <sphere x="-0.28487" y="1.05567" z="1.4781" radius="0.03076" colour="#fffafa" reflectivity="0.2" tr="0.82" tg="0.82" tb="0.82" refractive_index="1.31"/>
+    <sphere x="0.04245" y="0.52065" z="0.52118" radius="0.03051" colour="#fffafa" reflectivity="0.2" tr="0.82" tg="0.82" tb="0.82" refractive_index="1.31"/>
+    <sphere x="0.59629" y="0.13977" z="2.26908" radius="0.03324" colour="#fffafa" reflectivity="0.2" tr="0.82" tg="0.82" tb="0.82" refractive_index="1.31"/>
+    <sphere x="-1.16539" y="0.0975" z="2.06165" radius="0.02922" colour="#fffafa" reflectivity="0.2" tr="0.82" tg="0.82" tb="0.82" refractive_index="1.31"/>
+    <sphere x="-0.72819" y="0.37353" z="0.49957" radius="0.02122" colour="#fffafa" reflectivity="0.2" tr="0.82" tg="0.82" tb="0.82" refractive_index="1.31"/>
+    <cone x="38.2739" y="53.2" z="154.69827" ax="0" ay="-1" az="0" angle="18.17802" length="70.5195" texture-map="tree.jpg" kS="0" reflectivity="0"/>
+    <point-light x="38.2739" y="53.2" z="154.69827" colour="#f7e160" intensity="40"  />
+    <plane x="38.2739" y="-13.8" z="154.69827" bx="38.2739" by="-13.8" bz="154.69827" nx="0" ny="-1" nz="0" texture-map="tree.jpg" kS="0" reflectivity="0" texture-scale="10" bounding-radius="22"/>
+    <cylinder x="38.2739" y="-13.8" z="154.69827" ax="0" ay="-1" az="0" texture-map="bark.jpg" length="7.1" radius="3.5" reflectivity="0" kS="0"/>
+    <sphere x="23.42259" y="3.91996" z="147.96524" radius="1.77178" colour="#c7c7c7" reflectivity="0.3"  />
+    <point-light x="21.80907" y="-9.7092" z="142.0183" colour="#f7e160" intensity="40"/>
+    <sphere x="24.34414" y="11.04039" z="153.6621" radius="1.32888" colour="#1dacd6" reflectivity="0.04"  />
+    <point-light x="54.91719" y="1.24937" z="150.42469" colour="#f7e160" intensity="40"/>
+    <sphere x="51.23027" y="11.8279" z="150.21639" radius="1.75235" colour="#e3e3e3" reflectivity="0.04"  />
+    <sphere x="45.7592" y="-12.68152" z="134.26887" radius="1.63671" colour="#ff5252" reflectivity="0.3" bump-map="bumpy_bauble.jpg" />
+    <point-light x="34.06492" y="2.65658" z="138.51554" colour="#f7e160" intensity="40"/>
+    <sphere x="43.99287" y="6.4535" z="140.31947" radius="1.34051" colour="#ff0038" reflectivity="0.8" bump-map="bumpy_bauble.jpg" />
+    <sphere x="44.19379" y="31.71478" z="150.63599" radius="0.83813" colour="#1dacd6" reflectivity="0.3"  />
+    <point-light x="57.13897" y="-7.07074" z="148.31676" colour="#f7e160" intensity="40"/>
+    <point-light x="28.04502" y="17.64587" z="148.81669" colour="#f7e160" intensity="40"/>
+    <sphere x="32.25102" y="35.23762" z="154.68981" radius="1.3755" colour="#ff5252" reflectivity="0.3"  />
+    <sphere x="40.76236" y="23.9108" z="145.27931" radius="1.88347" colour="#ff0038" reflectivity="0.3"  />
+    <point-light x="24.88422" y="-3.25176" z="141.69995" colour="#f7e160" intensity="40"/>
+    <sphere x="30.86721" y="8.66507" z="141.94483" radius="1.19984" colour="#e3e3e3" reflectivity="0.3"  />
+    <sphere x="46.71719" y="24.98555" z="150.59113" radius="1.47091" colour="#c7c7c7" reflectivity="0.8"  />
+    <sphere x="51.70675" y="-8.37164" z="139.42184" radius="1.63899" colour="#e3e3e3" reflectivity="0.3"  />
+    <sphere x="38.84097" y="-10.75662" z="133.58041" radius="1.84086" colour="#ff5252" reflectivity="0.3"  />
+    <sphere x="39.63795" y="34.25658" z="148.50161" radius="1.26462" colour="#1dacd6" reflectivity="0.8" bump-map="bumpy_bauble.jpg" />
+    <point-light x="18.2509" y="-9.60849" z="149.25966" colour="#f7e160" intensity="40"/>
+    <point-light x="42.71024" y="1.2414" z="138.09492" colour="#f7e160" intensity="40"/>
+    <sphere x="26.5721" y="8.47979" z="145.62218" radius="1.47453" colour="#ff5252" reflectivity="0.04"  />
+    <point-light x="58.11911" y="-6.90388" z="153.92196" colour="#f7e160" intensity="40"/>
+    <point-light x="28.57394" y="-6.06204" z="137.68526" colour="#f7e160" intensity="40"/>
+    <sphere x="29.68138" y="27.01167" z="153.18971" radius="1.37054" colour="#ff5252" reflectivity="0.3" bump-map="bumpy_bauble.jpg" />
+    <sphere x="34.61432" y="13.50629" z="142.05886" radius="1.286" colour="#1dacd6" reflectivity="0.3" bump-map="bumpy_bauble.jpg" />
+    <sphere x="33.03431" y="25.04539" z="146.93066" radius="1.14928" colour="#1dacd6" reflectivity="0.8"  />
+    <point-light x="38.10106" y="44.65237" z="151.60842" colour="#f7e160" intensity="40"  />
+    <sphere x="43.0771" y="38.21455" z="153.15388" radius="1.44249" colour="#ff5252" reflectivity="0.8"  />
+    <point-light x="42.20157" y="13.39069" z="142.09982" colour="#f7e160" intensity="40"/>
+    <point-light x="49.24375" y="7.16659" z="144.11871" colour="#f7e160" intensity="40"/>
+    <point-light x="45.37534" y="20.62534" z="146.53357" colour="#f7e160" intensity="40"/>
+    <sphere x="26.04611" y="-11.6493" z="137.11314" radius="1.41813" colour="#c7c7c7" reflectivity="0.8"  />
+    <point-light x="38.59456" y="18.57308" z="143.20792" colour="#f7e160" intensity="40"/>
+    <point-light x="55.97214" y="-11.64754" z="142.63579" colour="#f7e160" intensity="40"/>
+    <sphere x="37.83493" y="42.23011" z="150.99737" radius="0.6" colour="#c7c7c7" reflectivity="0.3" bump-map="bumpy_bauble.jpg" />
+    <point-light x="18.45839" y="-6.76812" z="154.58908" colour="#f7e160" intensity="40"/>
+    <point-light x="38.46678" y="-3.42064" z="135.98262" colour="#f7e160" intensity="40"/>
+    <point-light x="32.67894" y="19.29137" z="144.92787" colour="#f7e160" intensity="40"/>
+    <sphere x="51.39772" y="-0.55243" z="142.71035" radius="1.60329" colour="#1dacd6" reflectivity="0.8"  />
+    <point-light x="59.5971" y="-12.37249" z="150.916" colour="#f7e160" intensity="40"/>
+    <point-light x="32.89638" y="-12.34679" z="133.72921" colour="#f7e160" intensity="40"/>
+    <sphere x="20.78956" y="-1.32939" z="150.29628" radius="0.8722" colour="#ff0038" reflectivity="0.8"  />
+    <point-light x="49.76199" y="17.46263" z="151.75375" colour="#f7e160" intensity="40"/>
+    <point-light x="27.13892" y="19.62322" z="154.11972" colour="#f7e160" intensity="40"/>
+    <point-light x="33.91484" y="31.60378" z="148.94758" colour="#f7e160" intensity="40"/>
+    <point-light x="38.14428" y="9.13886" z="140.10622" colour="#f7e160" intensity="40"/>
+    <point-light x="22.1321" y="4.30197" z="153.57477" colour="#f7e160" intensity="40"/>
+    <sphere x="52.69011" y="6.2887" z="148.92704" radius="1.81366" colour="#1dacd6" reflectivity="0.3" bump-map="bumpy_bauble.jpg" />
+    <point-light x="47.64852" y="-2.99304" z="138.66103" colour="#f7e160" intensity="40"/>
+    <point-light x="26.92317" y="3.21599" z="142.6713" colour="#f7e160" intensity="40"/>
+    <sphere x="43.31771" y="-6.23417" z="135.71647" radius="1.82455" colour="#ff0038" reflectivity="0.04"  />
+    <sphere x="47.03145" y="14.1963" z="145.18296" radius="1.624" colour="#1dacd6" reflectivity="0.8"  />
+    <sphere x="53.46555" y="7.31134" z="154.51897" radius="1.78143" colour="#c7c7c7" reflectivity="0.04" bump-map="bumpy_bauble.jpg" />
+    <sphere x="16.50352" y="-12.81615" z="153.5295" radius="1.76646" colour="#c7c7c7" reflectivity="0.3"  />
+    <point-light x="21.11546" y="-4.95508" z="146.03715" colour="#f7e160" intensity="40"/>
+    <sphere x="34.05396" y="-7.07611" z="135.23351" radius="1.66225" colour="#ff0038" reflectivity="0.8" bump-map="bumpy_bauble.jpg" />
+    <point-light x="29.51797" y="13.32993" z="144.79836" colour="#f7e160" intensity="40"/>
+    <sphere x="54.20269" y="-5.40751" z="143.67858" radius="1.39482" colour="#e3e3e3" reflectivity="0.3"  />
+    <sphere x="38.46661" y="28.98935" z="146.62602" radius="1.42865" colour="#ff0038" reflectivity="0.8" bump-map="bumpy_bauble.jpg" />
+    <point-light x="19.35507" y="58.4" z="84.55677" colour="#f4fffa" intensity="3000"/>
+    <point-light x="43.35507" y="58.4" z="84.55677" colour="#f4fffa" intensity="3000"/>
+    <point-light x="26.35507" y="58.4" z="77.55677" colour="#f4fffa" intensity="3000"/>
+    <point-light x="26.35507" y="58.4" z="91.55677" colour="#f4fffa" intensity="3000"/>
+    <point-light x="85.32484" y="-7.8" z="100.35767" colour="#ff1e00" intensity="7000"/>
+    <point-light x="1" y="1.8" z="1" colour="#FFFFFF" intensity="80"/>
+    <point-light x="-18" y="43.2" z="180" colour="#ffffff" intensity="15000"/>
+</scene>

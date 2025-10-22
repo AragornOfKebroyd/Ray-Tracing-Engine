@@ -1,0 +1,8 @@
+<scene>
+    <ambient-light colour="#D0D0FF" intensity="0.05"/>
+    <point-light x="2" y="2" z="4.5" colour="#FFFFFF" intensity="80"/>
+    <point-light x="-2" y="2.5" z="1" colour="#AAAAFF" intensity="120"/>
+    <cone x="-3" y="2" z="5" ax="1" ay="-1" az="2" angle="25" length="4" colour="#ff0000" texture-map="tree.jpg" reflectivity="0" kS="0" alphaS="50" kD="1"/>
+    <cylinder x="1" y="3" z="10" ax="0.5" ay="-1" az="-2" length="10" radius="1" colour = "#00ff00" texture-map="carrot.jpg"/>
+    <plane x="0.0" y="-1.10622" z="4.68013" nx="0" ny="4.2239089012146" nz="-2.180126190185547" colour="#111111" kS="0.8" kD="0.8" alphaS="10" refelctivity="0.3"/>
+</scene>
